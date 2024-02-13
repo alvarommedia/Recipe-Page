@@ -1,1 +1,1 @@
-[](assets/images/Desktop Result.png)
+![Desktop Result](assets/images/Desktop-Result.png)
