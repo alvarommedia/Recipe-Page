@@ -1,0 +1,185 @@
+*{
+/*Box model stuff*/
+  margin: 0;
+  padding: 0;
+/*Miscellaneous*/
+  box-sizing: border-box;
+}
+body{
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  min-height: 100dvh;
+  background-color: hsl(30, 54%, 90%);
+}
+.text__bold{
+/*Typography stuff*/
+  font-family: "Outfit", sans-serif;;
+  font-weight: 700;
+/*Miscellaneous*/
+  line-height: 150%;
+  color: #333333;
+}
+.recipe{
+  /*Box model stuff*/
+  width: 736px;
+  padding: 2.5rem;
+  background-color: white;
+  margin-top: 7.625rem;
+  margin-bottom: 7.625rem;
+  border-radius: 10px;
+}
+.recipe__image{
+/*Box model stuff*/
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: beige;
+/*Miscellaneous*/
+  object-fit: fill;
+}
+.recipe__title{
+/*Typography stuff*/
+  font-family: "Young Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #312E2C;
+}
+.recipe__description{
+/*Box model stuff*/
+  width: 100%;
+/*Typography stuff*/
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-wrap: balance;
+  color: #333333;
+/*Miscellaneous*/
+  line-height: 150%;
+  
+}
+.recipe__timing{
+/*Box model stuff*/
+  margin-top: 1.8125rem;
+  padding: 1.625rem;
+  border-radius: 10px;
+  background-color: #FFF7FB;
+}
+.recipe__section{
+/*Box model stuff*/
+  margin-top: 2.25rem;
+}
+.section__title{
+/*Box model stuff*/
+  margin-bottom: 1.4375rem;
+/*Typography stuff*/
+  font-family: "Young Serif", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #854632;
+/*Miscellaneous*/
+  line-height: 100%;
+}
+.section__list{
+/*Box model stuff*/
+  padding-left: 0.5rem;
+/*Miscellaneous*/
+  list-style-position:inside;
+  margin-left: 2rem;
+  font-weight: 700;
+  text-indent: -2rem;
+}
+.section__list-item{
+  margin-top: 6px;
+  text-wrap: pretty;
+}
+.section__list-item::marker{
+  color: #7A284E;
+}
+
+.section__list-item-content{
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+    color: #5F564D;
+}
+.timing__title{
+/*Typography stuff*/
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #7A284E;
+}
+.timing__list{
+/*Miscellaneous*/
+  padding-inline: 1.625rem;
+}
+.timing__list-item{
+/*Box model stuff*/
+  margin-top: 6px;
+/*Typography stuff*/
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5F564D;
+/*Miscellaneous*/
+  line-height: 150%;
+  padding-inline: 20px;
+  
+}
+.timing__list-item::marker{
+  color: #7A284E;
+}
+.instructions{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  border-top: 1px solid #E3DDD7;
+  border-bottom: 1px solid #E3DDD7;
+}
+.nutrition{
+
+}
+.nutrition__title{
+
+}
+.nutrition__text{
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-wrap: balance;
+  color: #5F564D;
+}
+.nutrition__table{
+  width: 100%;
+  margin-top: 1.5625rem;
+  border-collapse: collapse; 
+}
+.nutrition__table-body{
+  width: 100%;
+}
+.nutrition__table-row{
+  width: 100%;
+  height: 36px;
+  border-bottom: 1px solid #E3DDD7;
+}
+.nutrition__table-key{
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-wrap: balance;
+  color: #333333;
+  padding-left: 1.875rem;
+}
+.nutrition__table-value{
+  /*Typography stuff*/
+  font-family: "Outfit", sans-serif;;
+  font-weight: 700;
+  /*Miscellaneous*/
+  line-height: 150%;
+  color: #854632;
+  padding-right: 1.875rem;
+  
+}
