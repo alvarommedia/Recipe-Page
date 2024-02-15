@@ -47,62 +47,45 @@ body{
   font-weight: 400;
   color: #312E2C;
 }
-@media (max-width: 1440px){
-  .recipe{
-    width: 100%;
-    margin-top: 0px;
-    border-radius: 0px;
-    padding: 0;
-  }
-  .recipe__image{
-    width: 100%;
-  }
-  .mobile-content-container{
-    padding: 2rem;
-  }
-  .recipe__title{
-    font-size: 2.25rem;
-  }
-}
 .recipe__description{
-/*Box model stuff*/
+  /*Box model stuff*/
   width: 100%;
-/*Typography stuff*/
+  /*Typography stuff*/
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   text-wrap: balance;
   color: #333333;
-/*Miscellaneous*/
+  /*Miscellaneous*/
   line-height: 150%;
   
 }
 .recipe__timing{
-/*Box model stuff*/
+  /*Box model stuff*/
   margin-top: 1.8125rem;
   padding: 1.625rem;
   border-radius: 10px;
   background-color: #FFF7FB;
 }
 .recipe__section{
-/*Box model stuff*/
+  /*Box model stuff*/
   margin-top: 2.25rem;
 }
 .section__title{
-/*Box model stuff*/
+  /*Box model stuff*/
   margin-bottom: 1.4375rem;
-/*Typography stuff*/
+  /*Typography stuff*/
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
   color: #854632;
-/*Miscellaneous*/
+  /*Miscellaneous*/
   line-height: 100%;
 }
 .section__list{
-/*Box model stuff*/
+  /*Box model stuff*/
   padding-left: 0.5rem;
-/*Miscellaneous*/
+  /*Miscellaneous*/
   list-style-position:inside;
   margin-left: 2rem;
   font-weight: 700;
@@ -117,32 +100,32 @@ body{
 }
 
 .section__list-item-content{
-    padding-left: 1rem;
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: "Outfit", sans-serif;
-    line-height: 150%;
-    color: #5F564D;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  line-height: 150%;
+  color: #5F564D;
 }
 .timing__title{
-/*Typography stuff*/
+  /*Typography stuff*/
   font-size: 1.25rem;
   font-weight: 600;
   color: #7A284E;
 }
 .timing__list{
-/*Miscellaneous*/
+  /*Miscellaneous*/
   padding-inline: 1.625rem;
 }
 .timing__list-item{
-/*Box model stuff*/
+  /*Box model stuff*/
   margin-top: 6px;
-/*Typography stuff*/
+  /*Typography stuff*/
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #5F564D;
-/*Miscellaneous*/
+  /*Miscellaneous*/
   line-height: 150%;
   padding-inline: 20px;
   
@@ -157,10 +140,10 @@ body{
   border-bottom: 1px solid #E3DDD7;
 }
 .nutrition{
-
+  
 }
 .nutrition__title{
-
+  
 }
 .nutrition__text{
   font-family: "Outfit", sans-serif;
@@ -199,4 +182,22 @@ body{
   color: #854632;
   padding-right: 1.875rem;
   
+}
+@media (max-width: 1440px){
+  .recipe{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding: 0;
+  }
+  .recipe__image{
+    width: 100%;
+  }
+  .mobile-content-container{
+    padding: 2rem;
+  }
+  .recipe__title{
+    font-size: 2.25rem;
+  }
 }
