@@ -21,6 +21,7 @@ body{
   /*Miscellaneous*/
   line-height: 150%;
   color: #333333;
+
 }
 .recipe{
   /*Box model stuff*/
@@ -177,7 +178,7 @@ body{
   padding-right: 1.875rem;
   
 }
-@media (max-width: 1440px){
+@media (max-width: 750px){
   .recipe{
     width: 100%;
     margin-top: 0px;
@@ -187,6 +188,8 @@ body{
   }
   .recipe__image{
     width: 100%;
+    object-fit:cover;
+    object-position: top;
   }
   .mobile-content-container{
     padding: 2rem;
